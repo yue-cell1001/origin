@@ -1,0 +1,185 @@
+{
+  "figure": 11,
+  "canvas_mm": [
+    165.0,
+    51.99999999999999
+  ],
+  "axes": [
+    {
+      "layer": 1,
+      "type": "rectilinear",
+      "position_normalized": [
+        0.072,
+        0.19999999999999996,
+        0.923,
+        0.56
+      ],
+      "xlim": [
+        0.0,
+        135.0
+      ],
+      "ylim": [
+        29.346226399999992,
+        251.79999126666667
+      ],
+      "xticks": [
+        0,
+        27,
+        54,
+        81,
+        108,
+        135
+      ],
+      "yticks": [
+        0.0,
+        50.0,
+        100.0,
+        150.0,
+        200.0,
+        250.0,
+        300.0
+      ],
+      "xlabel": "连续样本序号",
+      "ylabel": "行程时间（s）",
+      "title": "",
+      "lines": [
+        {
+          "file": "layer1_line01.csv",
+          "label": "_child4",
+          "color": "#a7a7a7",
+          "width_pt": 0.75,
+          "linestyle": "--",
+          "marker": "None",
+          "marker_size_pt": 6.0,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line02.csv",
+          "label": "_child7",
+          "color": "#a7a7a7",
+          "width_pt": 0.75,
+          "linestyle": "--",
+          "marker": "None",
+          "marker_size_pt": 6.0,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line03.csv",
+          "label": "_child10",
+          "color": "#a7a7a7",
+          "width_pt": 0.75,
+          "linestyle": "--",
+          "marker": "None",
+          "marker_size_pt": 6.0,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line04.csv",
+          "label": "_child13",
+          "color": "#a7a7a7",
+          "width_pt": 0.75,
+          "linestyle": "--",
+          "marker": "None",
+          "marker_size_pt": 6.0,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line05.csv",
+          "label": "BPR",
+          "color": "#777777",
+          "width_pt": 0.55,
+          "linestyle": "-",
+          "marker": "o",
+          "marker_size_pt": 1.2,
+          "alpha": 0.75
+        },
+        {
+          "file": "layer1_line06.csv",
+          "label": "Fu",
+          "color": "#d98c00",
+          "width_pt": 0.55,
+          "linestyle": "-",
+          "marker": "o",
+          "marker_size_pt": 1.2,
+          "alpha": 0.88
+        },
+        {
+          "file": "layer1_line07.csv",
+          "label": "观测值",
+          "color": "#1f1f1f",
+          "width_pt": 0.7,
+          "linestyle": "-",
+          "marker": "o",
+          "marker_size_pt": 1.2,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line08.csv",
+          "label": "EPM",
+          "color": "#269a8f",
+          "width_pt": 0.55,
+          "linestyle": "-",
+          "marker": "o",
+          "marker_size_pt": 1.2,
+          "alpha": 0.95
+        }
+      ],
+      "collections": [],
+      "texts": [
+        {
+          "text": "基准场景",
+          "position": [
+            14.0,
+            0.975
+          ],
+          "font_size_pt": 8.5,
+          "color": "#454545",
+          "coordinate_transform": "BlendedGenericTransform(\n    CompositeGenericTransform(\n        TransformWrapper(\n            BlendedAffine2D(\n                IdentityTransform(),\n                IdentityTransform())),\n        CompositeGenericTransform(\n            BboxTransformFrom(\n                TransformedBbox(\n                    Bbox(x0=0.0, y0=29.346226399999992, x1=135.0, y1=251.79999126666667),\n                    TransformWrapper(\n                        BlendedAffine2D(\n                            IdentityTransform(),\n                            IdentityTransform())))),\n            BboxTransformTo(\n                TransformedBbox(\n                    Bbox(x0=0.072, y0=0.19999999999999996, x1=0.995, y1=0.76),\n                    BboxTransformTo(\n                        TransformedBbox(\n                            Bbox(x0=0.0, y0=0.0, x1=6.496062992125984, y1=2.047244094488189),\n                            Affine2D().scale(100.0))))))),\n    BboxTransformTo(\n        TransformedBbox(\n            Bbox(x0=0.072, y0=0.19999999999999996, x1=0.995, y1=0.76),\n            BboxTransformTo(\n                TransformedBbox(\n                    Bbox(x0=0.0, y0=0.0, x1=6.496062992125984, y1=2.047244094488189),\n                    Affine2D().scale(100.0))))))"
+        },
+        {
+          "text": "CAV 20%",
+          "position": [
+            41.0,
+            0.975
+          ],
+          "font_size_pt": 8.5,
+          "color": "#454545",
+          "coordinate_transform": "BlendedGenericTransform(\n    CompositeGenericTransform(\n        TransformWrapper(\n            BlendedAffine2D(\n                IdentityTransform(),\n                IdentityTransform())),\n        CompositeGenericTransform(\n            BboxTransformFrom(\n                TransformedBbox(\n                    Bbox(x0=0.0, y0=29.346226399999992, x1=135.0, y1=251.79999126666667),\n                    TransformWrapper(\n                        BlendedAffine2D(\n                            IdentityTransform(),\n                            IdentityTransform())))),\n            BboxTransformTo(\n                TransformedBbox(\n                    Bbox(x0=0.072, y0=0.19999999999999996, x1=0.995, y1=0.76),\n                    BboxTransformTo(\n                        TransformedBbox(\n                            Bbox(x0=0.0, y0=0.0, x1=6.496062992125984, y1=2.047244094488189),\n                            Affine2D().scale(100.0))))))),\n    BboxTransformTo(\n        TransformedBbox(\n            Bbox(x0=0.072, y0=0.19999999999999996, x1=0.995, y1=0.76),\n            BboxTransformTo(\n                TransformedBbox(\n                    Bbox(x0=0.0, y0=0.0, x1=6.496062992125984, y1=2.047244094488189),\n                    Affine2D().scale(100.0))))))"
+        },
+        {
+          "text": "CAV 40%",
+          "position": [
+            68.0,
+            0.975
+          ],
+          "font_size_pt": 8.5,
+          "color": "#454545",
+          "coordinate_transform": "BlendedGenericTransform(\n    CompositeGenericTransform(\n        TransformWrapper(\n            BlendedAffine2D(\n                IdentityTransform(),\n                IdentityTransform())),\n        CompositeGenericTransform(\n            BboxTransformFrom(\n                TransformedBbox(\n                    Bbox(x0=0.0, y0=29.346226399999992, x1=135.0, y1=251.79999126666667),\n                    TransformWrapper(\n                        BlendedAffine2D(\n                            IdentityTransform(),\n                            IdentityTransform())))),\n            BboxTransformTo(\n                TransformedBbox(\n                    Bbox(x0=0.072, y0=0.19999999999999996, x1=0.995, y1=0.76),\n                    BboxTransformTo(\n                        TransformedBbox(\n                            Bbox(x0=0.0, y0=0.0, x1=6.496062992125984, y1=2.047244094488189),\n                            Affine2D().scale(100.0))))))),\n    BboxTransformTo(\n        TransformedBbox(\n            Bbox(x0=0.072, y0=0.19999999999999996, x1=0.995, y1=0.76),\n            BboxTransformTo(\n                TransformedBbox(\n                    Bbox(x0=0.0, y0=0.0, x1=6.496062992125984, y1=2.047244094488189),\n                    Affine2D().scale(100.0))))))"
+        },
+        {
+          "text": "CAV 60%",
+          "position": [
+            95.0,
+            0.975
+          ],
+          "font_size_pt": 8.5,
+          "color": "#454545",
+          "coordinate_transform": "BlendedGenericTransform(\n    CompositeGenericTransform(\n        TransformWrapper(\n            BlendedAffine2D(\n                IdentityTransform(),\n                IdentityTransform())),\n        CompositeGenericTransform(\n            BboxTransformFrom(\n                TransformedBbox(\n                    Bbox(x0=0.0, y0=29.346226399999992, x1=135.0, y1=251.79999126666667),\n                    TransformWrapper(\n                        BlendedAffine2D(\n                            IdentityTransform(),\n                            IdentityTransform())))),\n            BboxTransformTo(\n                TransformedBbox(\n                    Bbox(x0=0.072, y0=0.19999999999999996, x1=0.995, y1=0.76),\n                    BboxTransformTo(\n                        TransformedBbox(\n                            Bbox(x0=0.0, y0=0.0, x1=6.496062992125984, y1=2.047244094488189),\n                            Affine2D().scale(100.0))))))),\n    BboxTransformTo(\n        TransformedBbox(\n            Bbox(x0=0.072, y0=0.19999999999999996, x1=0.995, y1=0.76),\n            BboxTransformTo(\n                TransformedBbox(\n                    Bbox(x0=0.0, y0=0.0, x1=6.496062992125984, y1=2.047244094488189),\n                    Affine2D().scale(100.0))))))"
+        },
+        {
+          "text": "CAV 100%",
+          "position": [
+            122.0,
+            0.975
+          ],
+          "font_size_pt": 8.5,
+          "color": "#454545",
+          "coordinate_transform": "BlendedGenericTransform(\n    CompositeGenericTransform(\n        TransformWrapper(\n            BlendedAffine2D(\n                IdentityTransform(),\n                IdentityTransform())),\n        CompositeGenericTransform(\n            BboxTransformFrom(\n                TransformedBbox(\n                    Bbox(x0=0.0, y0=29.346226399999992, x1=135.0, y1=251.79999126666667),\n                    TransformWrapper(\n                        BlendedAffine2D(\n                            IdentityTransform(),\n                            IdentityTransform())))),\n            BboxTransformTo(\n                TransformedBbox(\n                    Bbox(x0=0.072, y0=0.19999999999999996, x1=0.995, y1=0.76),\n                    BboxTransformTo(\n                        TransformedBbox(\n                            Bbox(x0=0.0, y0=0.0, x1=6.496062992125984, y1=2.047244094488189),\n                            Affine2D().scale(100.0))))))),\n    BboxTransformTo(\n        TransformedBbox(\n            Bbox(x0=0.072, y0=0.19999999999999996, x1=0.995, y1=0.76),\n            BboxTransformTo(\n                TransformedBbox(\n                    Bbox(x0=0.0, y0=0.0, x1=6.496062992125984, y1=2.047244094488189),\n                    Affine2D().scale(100.0))))))"
+        }
+      ],
+      "tables": []
+    }
+  ],
+  "note": "Source canvas differs from tightly cropped output. Use reference PNG dimensions for final export. 3D collections are not flattened into 2D paths.",
+  "figure_texts": []
+}

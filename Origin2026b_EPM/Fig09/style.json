@@ -1,0 +1,167 @@
+{
+  "figure": 9,
+  "canvas_mm": [
+    85.0,
+    83.0
+  ],
+  "axes": [
+    {
+      "layer": 1,
+      "type": "rectilinear",
+      "position_normalized": [
+        0.13655882352941184,
+        0.10999999999999999,
+        0.7518823529411763,
+        0.77
+      ],
+      "xlim": [
+        35.78083943333333,
+        236.17307390000002
+      ],
+      "ylim": [
+        35.78083943333333,
+        236.17307390000002
+      ],
+      "xticks": [
+        0.0,
+        50.0,
+        100.0,
+        150.0,
+        200.0,
+        250.0
+      ],
+      "yticks": [
+        25.0,
+        50.0,
+        75.0,
+        100.0,
+        125.0,
+        150.0,
+        175.0,
+        200.0,
+        225.0,
+        250.0
+      ],
+      "xlabel": "观测行程时间（s）",
+      "ylabel": "预测行程时间（s）",
+      "title": "",
+      "lines": [
+        {
+          "file": "layer1_line01.csv",
+          "label": "1∶1参考线",
+          "color": "#777777",
+          "width_pt": 1.1,
+          "linestyle": "--",
+          "marker": "None",
+          "marker_size_pt": 6.0,
+          "alpha": null
+        }
+      ],
+      "collections": [
+        {
+          "class": "PathCollection",
+          "label": "BPR",
+          "alpha": 0.64,
+          "facecolors_rgba": [
+            [
+              0.3568627450980392,
+              0.3568627450980392,
+              0.3568627450980392,
+              0.64
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              1.0,
+              1.0,
+              1.0,
+              0.64
+            ]
+          ],
+          "linewidths_pt": [
+            0.25
+          ],
+          "file": "layer1_scatter01.csv",
+          "sizes_pt_squared": [
+            20
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "Fu",
+          "alpha": 0.64,
+          "facecolors_rgba": [
+            [
+              0.8352941176470589,
+              0.5411764705882353,
+              0.0,
+              0.64
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              1.0,
+              1.0,
+              1.0,
+              0.64
+            ]
+          ],
+          "linewidths_pt": [
+            0.25
+          ],
+          "file": "layer1_scatter02.csv",
+          "sizes_pt_squared": [
+            20
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "EPM",
+          "alpha": 0.64,
+          "facecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.64
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              1.0,
+              1.0,
+              1.0,
+              0.64
+            ]
+          ],
+          "linewidths_pt": [
+            0.25
+          ],
+          "file": "layer1_scatter03.csv",
+          "sizes_pt_squared": [
+            20
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        }
+      ],
+      "texts": [],
+      "tables": []
+    }
+  ],
+  "note": "Source canvas differs from tightly cropped output. Use reference PNG dimensions for final export. 3D collections are not flattened into 2D paths.",
+  "figure_texts": []
+}

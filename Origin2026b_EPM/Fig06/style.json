@@ -1,0 +1,1671 @@
+{
+  "figure": 6,
+  "canvas_mm": [
+    165.0,
+    57.0
+  ],
+  "axes": [
+    {
+      "layer": 1,
+      "type": "rectilinear",
+      "position_normalized": [
+        0.075,
+        0.235,
+        0.25702247191011235,
+        0.5650000000000001
+      ],
+      "xlim": [
+        0.5549999999999999,
+        1.4449999999999998
+      ],
+      "ylim": [
+        0.0,
+        24.0
+      ],
+      "xticks": [
+        0.6,
+        0.8,
+        1.0,
+        1.2,
+        1.4
+      ],
+      "yticks": [
+        0,
+        6,
+        12,
+        18,
+        24
+      ],
+      "xlabel": "交通流量系数",
+      "ylabel": "MAE / s",
+      "title": "交通流量变化",
+      "lines": [
+        {
+          "file": "layer1_line01.csv",
+          "label": "_child0",
+          "color": "#b6bcc0",
+          "width_pt": 0.7,
+          "linestyle": "--",
+          "marker": "None",
+          "marker_size_pt": 6.0,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line02.csv",
+          "label": "_nolegend_",
+          "color": "#55585c",
+          "width_pt": 0.9,
+          "linestyle": "-",
+          "marker": "o",
+          "marker_size_pt": 3.2,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line03.csv",
+          "label": "_nolegend_",
+          "color": "#55585c",
+          "width_pt": 0.9,
+          "linestyle": "None",
+          "marker": "_",
+          "marker_size_pt": 3.6,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line04.csv",
+          "label": "_nolegend_",
+          "color": "#55585c",
+          "width_pt": 0.9,
+          "linestyle": "None",
+          "marker": "_",
+          "marker_size_pt": 3.6,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line05.csv",
+          "label": "_child10",
+          "color": "#1f77b4",
+          "width_pt": 0.85,
+          "linestyle": "-",
+          "marker": "o",
+          "marker_size_pt": 5.2,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line06.csv",
+          "label": "_nolegend_",
+          "color": "#d88c00",
+          "width_pt": 0.9,
+          "linestyle": "--",
+          "marker": "s",
+          "marker_size_pt": 3.2,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line07.csv",
+          "label": "_nolegend_",
+          "color": "#d88c00",
+          "width_pt": 0.9,
+          "linestyle": "None",
+          "marker": "_",
+          "marker_size_pt": 3.6,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line08.csv",
+          "label": "_nolegend_",
+          "color": "#d88c00",
+          "width_pt": 0.9,
+          "linestyle": "None",
+          "marker": "_",
+          "marker_size_pt": 3.6,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line09.csv",
+          "label": "_child20",
+          "color": "#ff7f0e",
+          "width_pt": 0.85,
+          "linestyle": "-",
+          "marker": "s",
+          "marker_size_pt": 5.2,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line10.csv",
+          "label": "_nolegend_",
+          "color": "#2a9d8f",
+          "width_pt": 0.9,
+          "linestyle": "-",
+          "marker": "^",
+          "marker_size_pt": 3.2,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line11.csv",
+          "label": "_nolegend_",
+          "color": "#2a9d8f",
+          "width_pt": 0.9,
+          "linestyle": "None",
+          "marker": "_",
+          "marker_size_pt": 3.6,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line12.csv",
+          "label": "_nolegend_",
+          "color": "#2a9d8f",
+          "width_pt": 0.9,
+          "linestyle": "None",
+          "marker": "_",
+          "marker_size_pt": 3.6,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line13.csv",
+          "label": "_child30",
+          "color": "#2ca02c",
+          "width_pt": 0.85,
+          "linestyle": "-",
+          "marker": "^",
+          "marker_size_pt": 5.2,
+          "alpha": null
+        }
+      ],
+      "collections": [
+        {
+          "class": "PathCollection",
+          "label": "_child1",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer1_scatter01.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child2",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer1_scatter02.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child3",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer1_scatter03.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child4",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer1_scatter04.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child5",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer1_scatter05.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "LineCollection",
+          "label": "_nolegend_",
+          "alpha": null,
+          "facecolors_rgba": [],
+          "edgecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              1.0
+            ]
+          ],
+          "linewidths_pt": [
+            0.55
+          ],
+          "file": "layer1_polygon06.csv",
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child11",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer1_scatter07.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child12",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer1_scatter08.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child13",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer1_scatter09.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child14",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer1_scatter10.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child15",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer1_scatter11.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "LineCollection",
+          "label": "_nolegend_",
+          "alpha": null,
+          "facecolors_rgba": [],
+          "edgecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              1.0
+            ]
+          ],
+          "linewidths_pt": [
+            0.55
+          ],
+          "file": "layer1_polygon12.csv",
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child21",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer1_scatter13.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child22",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer1_scatter14.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child23",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer1_scatter15.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child24",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer1_scatter16.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child25",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer1_scatter17.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "LineCollection",
+          "label": "_nolegend_",
+          "alpha": null,
+          "facecolors_rgba": [],
+          "edgecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              1.0
+            ]
+          ],
+          "linewidths_pt": [
+            0.55
+          ],
+          "file": "layer1_polygon18.csv",
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        }
+      ],
+      "texts": [],
+      "tables": []
+    },
+    {
+      "layer": 2,
+      "type": "rectilinear",
+      "position_normalized": [
+        0.4039887640449438,
+        0.235,
+        0.25702247191011235,
+        0.5650000000000001
+      ],
+      "xlim": [
+        -3.0,
+        103.0
+      ],
+      "ylim": [
+        0.0,
+        24.0
+      ],
+      "xticks": [
+        0.0,
+        20.0,
+        40.0,
+        60.0,
+        80.0,
+        100.0
+      ],
+      "yticks": [
+        0,
+        6,
+        12,
+        18,
+        24
+      ],
+      "xlabel": "CAV渗透率 / %",
+      "ylabel": "MAE / s",
+      "title": "CAV渗透率变化",
+      "lines": [
+        {
+          "file": "layer2_line01.csv",
+          "label": "_child0",
+          "color": "#b6bcc0",
+          "width_pt": 0.7,
+          "linestyle": "--",
+          "marker": "None",
+          "marker_size_pt": 6.0,
+          "alpha": null
+        },
+        {
+          "file": "layer2_line02.csv",
+          "label": "_nolegend_",
+          "color": "#55585c",
+          "width_pt": 0.9,
+          "linestyle": "-",
+          "marker": "o",
+          "marker_size_pt": 3.2,
+          "alpha": null
+        },
+        {
+          "file": "layer2_line03.csv",
+          "label": "_nolegend_",
+          "color": "#55585c",
+          "width_pt": 0.9,
+          "linestyle": "None",
+          "marker": "_",
+          "marker_size_pt": 3.6,
+          "alpha": null
+        },
+        {
+          "file": "layer2_line04.csv",
+          "label": "_nolegend_",
+          "color": "#55585c",
+          "width_pt": 0.9,
+          "linestyle": "None",
+          "marker": "_",
+          "marker_size_pt": 3.6,
+          "alpha": null
+        },
+        {
+          "file": "layer2_line05.csv",
+          "label": "_child11",
+          "color": "#1f77b4",
+          "width_pt": 0.85,
+          "linestyle": "-",
+          "marker": "o",
+          "marker_size_pt": 5.2,
+          "alpha": null
+        },
+        {
+          "file": "layer2_line06.csv",
+          "label": "_nolegend_",
+          "color": "#d88c00",
+          "width_pt": 0.9,
+          "linestyle": "--",
+          "marker": "s",
+          "marker_size_pt": 3.2,
+          "alpha": null
+        },
+        {
+          "file": "layer2_line07.csv",
+          "label": "_nolegend_",
+          "color": "#d88c00",
+          "width_pt": 0.9,
+          "linestyle": "None",
+          "marker": "_",
+          "marker_size_pt": 3.6,
+          "alpha": null
+        },
+        {
+          "file": "layer2_line08.csv",
+          "label": "_nolegend_",
+          "color": "#d88c00",
+          "width_pt": 0.9,
+          "linestyle": "None",
+          "marker": "_",
+          "marker_size_pt": 3.6,
+          "alpha": null
+        },
+        {
+          "file": "layer2_line09.csv",
+          "label": "_child22",
+          "color": "#ff7f0e",
+          "width_pt": 0.85,
+          "linestyle": "-",
+          "marker": "s",
+          "marker_size_pt": 5.2,
+          "alpha": null
+        },
+        {
+          "file": "layer2_line10.csv",
+          "label": "_nolegend_",
+          "color": "#2a9d8f",
+          "width_pt": 0.9,
+          "linestyle": "-",
+          "marker": "^",
+          "marker_size_pt": 3.2,
+          "alpha": null
+        },
+        {
+          "file": "layer2_line11.csv",
+          "label": "_nolegend_",
+          "color": "#2a9d8f",
+          "width_pt": 0.9,
+          "linestyle": "None",
+          "marker": "_",
+          "marker_size_pt": 3.6,
+          "alpha": null
+        },
+        {
+          "file": "layer2_line12.csv",
+          "label": "_nolegend_",
+          "color": "#2a9d8f",
+          "width_pt": 0.9,
+          "linestyle": "None",
+          "marker": "_",
+          "marker_size_pt": 3.6,
+          "alpha": null
+        },
+        {
+          "file": "layer2_line13.csv",
+          "label": "_child33",
+          "color": "#2ca02c",
+          "width_pt": 0.85,
+          "linestyle": "-",
+          "marker": "^",
+          "marker_size_pt": 5.2,
+          "alpha": null
+        }
+      ],
+      "collections": [
+        {
+          "class": "PathCollection",
+          "label": "_child1",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter01.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child2",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter02.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child3",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter03.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child4",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter04.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child5",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter05.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child6",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter06.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "LineCollection",
+          "label": "_nolegend_",
+          "alpha": null,
+          "facecolors_rgba": [],
+          "edgecolors_rgba": [
+            [
+              0.3333333333333333,
+              0.34509803921568627,
+              0.3607843137254902,
+              1.0
+            ]
+          ],
+          "linewidths_pt": [
+            0.55
+          ],
+          "file": "layer2_polygon07.csv",
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child12",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter08.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child13",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter09.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child14",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter10.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child15",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter11.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child16",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter12.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child17",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter13.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "LineCollection",
+          "label": "_nolegend_",
+          "alpha": null,
+          "facecolors_rgba": [],
+          "edgecolors_rgba": [
+            [
+              0.8470588235294118,
+              0.5490196078431373,
+              0.0,
+              1.0
+            ]
+          ],
+          "linewidths_pt": [
+            0.55
+          ],
+          "file": "layer2_polygon14.csv",
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child23",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter15.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child24",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter16.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child25",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter17.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child26",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter18.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child27",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter19.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "PathCollection",
+          "label": "_child28",
+          "alpha": 0.24,
+          "facecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "edgecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              0.24
+            ]
+          ],
+          "linewidths_pt": [
+            0
+          ],
+          "file": "layer2_scatter20.csv",
+          "sizes_pt_squared": [
+            6
+          ],
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        },
+        {
+          "class": "LineCollection",
+          "label": "_nolegend_",
+          "alpha": null,
+          "facecolors_rgba": [],
+          "edgecolors_rgba": [
+            [
+              0.16470588235294117,
+              0.615686274509804,
+              0.5607843137254902,
+              1.0
+            ]
+          ],
+          "linewidths_pt": [
+            0.55
+          ],
+          "file": "layer2_polygon21.csv",
+          "color_range": [
+            null,
+            null
+          ],
+          "colormap": "viridis"
+        }
+      ],
+      "texts": [],
+      "tables": []
+    },
+    {
+      "layer": 3,
+      "type": "rectilinear",
+      "position_normalized": [
+        0.7329775280898876,
+        0.235,
+        0.2570224719101124,
+        0.5650000000000001
+      ],
+      "xlim": [
+        0.43,
+        0.87
+      ],
+      "ylim": [
+        1.4,
+        2.6
+      ],
+      "xticks": [
+        0.45,
+        0.55,
+        0.65,
+        0.75,
+        0.85
+      ],
+      "yticks": [
+        1.4,
+        1.7,
+        2.0,
+        2.3,
+        2.6
+      ],
+      "xlabel": "排队压缩系数 ξ",
+      "ylabel": "MAE, RMSE / s",
+      "title": "排队压缩系数变化",
+      "lines": [
+        {
+          "file": "layer3_line01.csv",
+          "label": "_child0",
+          "color": "#b6bcc0",
+          "width_pt": 0.7,
+          "linestyle": "--",
+          "marker": "None",
+          "marker_size_pt": 6.0,
+          "alpha": null
+        },
+        {
+          "file": "layer3_line02.csv",
+          "label": "MAE",
+          "color": "#2a9d8f",
+          "width_pt": 0.9,
+          "linestyle": "-",
+          "marker": "o",
+          "marker_size_pt": 3.2,
+          "alpha": null
+        },
+        {
+          "file": "layer3_line03.csv",
+          "label": "_child2",
+          "color": "#1f77b4",
+          "width_pt": 0.85,
+          "linestyle": "-",
+          "marker": "o",
+          "marker_size_pt": 5.2,
+          "alpha": null
+        },
+        {
+          "file": "layer3_line04.csv",
+          "label": "RMSE",
+          "color": "#d88c00",
+          "width_pt": 0.9,
+          "linestyle": "--",
+          "marker": "s",
+          "marker_size_pt": 3.2,
+          "alpha": null
+        },
+        {
+          "file": "layer3_line05.csv",
+          "label": "_child4",
+          "color": "#ff7f0e",
+          "width_pt": 0.85,
+          "linestyle": "-",
+          "marker": "s",
+          "marker_size_pt": 5.2,
+          "alpha": null
+        }
+      ],
+      "collections": [],
+      "texts": [],
+      "tables": []
+    }
+  ],
+  "note": "Source canvas differs from tightly cropped output. Use reference PNG dimensions for final export. 3D collections are not flattened into 2D paths.",
+  "figure_texts": []
+}

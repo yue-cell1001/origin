@@ -1,0 +1,357 @@
+{
+  "figure": 3,
+  "canvas_mm": [
+    165.0,
+    108.0
+  ],
+  "axes": [
+    {
+      "layer": 1,
+      "type": "rectilinear",
+      "position_normalized": [
+        0.085,
+        0.5808333333333333,
+        0.4054054054054054,
+        0.3291666666666667
+      ],
+      "xlim": [
+        0.0,
+        100.0
+      ],
+      "ylim": [
+        65.65070109532641,
+        88.01663328117493
+      ],
+      "xticks": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "yticks": [
+        65.0,
+        70.0,
+        75.0,
+        80.0,
+        85.0,
+        90.0
+      ],
+      "xlabel": "",
+      "ylabel": "",
+      "title": "混行车道+有信号无专用道交叉口",
+      "lines": [
+        {
+          "file": "layer1_line01.csv",
+          "label": "观测值",
+          "color": "#252525",
+          "width_pt": 1.05,
+          "linestyle": "-",
+          "marker": "None",
+          "marker_size_pt": 6.0,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line02.csv",
+          "label": "BPR",
+          "color": "#4d4d4d",
+          "width_pt": 0.82,
+          "linestyle": "--",
+          "marker": "o",
+          "marker_size_pt": 2.15,
+          "alpha": 0.92
+        },
+        {
+          "file": "layer1_line03.csv",
+          "label": "Fu",
+          "color": "#d89000",
+          "width_pt": 0.82,
+          "linestyle": "--",
+          "marker": "o",
+          "marker_size_pt": 2.15,
+          "alpha": 0.92
+        },
+        {
+          "file": "layer1_line04.csv",
+          "label": "EPM",
+          "color": "#2a9d8f",
+          "width_pt": 0.82,
+          "linestyle": "-",
+          "marker": "o",
+          "marker_size_pt": 2.15,
+          "alpha": 0.92
+        }
+      ],
+      "collections": [],
+      "texts": [],
+      "tables": []
+    },
+    {
+      "layer": 2,
+      "type": "rectilinear",
+      "position_normalized": [
+        0.5795945945945945,
+        0.5808333333333333,
+        0.4054054054054054,
+        0.3291666666666667
+      ],
+      "xlim": [
+        0.0,
+        100.0
+      ],
+      "ylim": [
+        65.95020737366187,
+        81.71665679173039
+      ],
+      "xticks": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "yticks": [
+        64.0,
+        68.0,
+        72.0,
+        76.0,
+        80.0,
+        84.0
+      ],
+      "xlabel": "",
+      "ylabel": "",
+      "title": "混行车道+无信号交叉口",
+      "lines": [
+        {
+          "file": "layer2_line01.csv",
+          "label": "观测值",
+          "color": "#252525",
+          "width_pt": 1.05,
+          "linestyle": "-",
+          "marker": "None",
+          "marker_size_pt": 6.0,
+          "alpha": null
+        },
+        {
+          "file": "layer2_line02.csv",
+          "label": "BPR",
+          "color": "#4d4d4d",
+          "width_pt": 0.82,
+          "linestyle": "--",
+          "marker": "o",
+          "marker_size_pt": 2.15,
+          "alpha": 0.92
+        },
+        {
+          "file": "layer2_line03.csv",
+          "label": "Fu",
+          "color": "#d89000",
+          "width_pt": 0.82,
+          "linestyle": "--",
+          "marker": "o",
+          "marker_size_pt": 2.15,
+          "alpha": 0.92
+        },
+        {
+          "file": "layer2_line04.csv",
+          "label": "EPM",
+          "color": "#2a9d8f",
+          "width_pt": 0.82,
+          "linestyle": "-",
+          "marker": "o",
+          "marker_size_pt": 2.15,
+          "alpha": 0.92
+        }
+      ],
+      "collections": [],
+      "texts": [],
+      "tables": []
+    },
+    {
+      "layer": 3,
+      "type": "rectilinear",
+      "position_normalized": [
+        0.085,
+        0.11999999999999988,
+        0.4054054054054054,
+        0.3291666666666667
+      ],
+      "xlim": [
+        0.0,
+        100.0
+      ],
+      "ylim": [
+        66.29493599769513,
+        74.47490739333213
+      ],
+      "xticks": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "yticks": [
+        66.0,
+        68.0,
+        70.0,
+        72.0,
+        74.0,
+        76.0
+      ],
+      "xlabel": "",
+      "ylabel": "",
+      "title": "CAV专用道+有信号有专用道交叉口",
+      "lines": [
+        {
+          "file": "layer3_line01.csv",
+          "label": "观测值",
+          "color": "#252525",
+          "width_pt": 1.05,
+          "linestyle": "-",
+          "marker": "None",
+          "marker_size_pt": 6.0,
+          "alpha": null
+        },
+        {
+          "file": "layer3_line02.csv",
+          "label": "BPR",
+          "color": "#4d4d4d",
+          "width_pt": 0.82,
+          "linestyle": "--",
+          "marker": "o",
+          "marker_size_pt": 2.15,
+          "alpha": 0.92
+        },
+        {
+          "file": "layer3_line03.csv",
+          "label": "Fu",
+          "color": "#d89000",
+          "width_pt": 0.82,
+          "linestyle": "--",
+          "marker": "o",
+          "marker_size_pt": 2.15,
+          "alpha": 0.92
+        },
+        {
+          "file": "layer3_line04.csv",
+          "label": "EPM",
+          "color": "#2a9d8f",
+          "width_pt": 0.82,
+          "linestyle": "-",
+          "marker": "o",
+          "marker_size_pt": 2.15,
+          "alpha": 0.92
+        }
+      ],
+      "collections": [],
+      "texts": [],
+      "tables": []
+    },
+    {
+      "layer": 4,
+      "type": "rectilinear",
+      "position_normalized": [
+        0.5795945945945945,
+        0.11999999999999988,
+        0.4054054054054054,
+        0.3291666666666667
+      ],
+      "xlim": [
+        0.0,
+        100.0
+      ],
+      "ylim": [
+        62.642998869184034,
+        85.54080957765791
+      ],
+      "xticks": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "yticks": [
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        80.0,
+        85.0,
+        90.0
+      ],
+      "xlabel": "",
+      "ylabel": "",
+      "title": "公交专用道+有信号有专用道交叉口",
+      "lines": [
+        {
+          "file": "layer4_line01.csv",
+          "label": "观测值",
+          "color": "#252525",
+          "width_pt": 1.05,
+          "linestyle": "-",
+          "marker": "None",
+          "marker_size_pt": 6.0,
+          "alpha": null
+        },
+        {
+          "file": "layer4_line02.csv",
+          "label": "BPR",
+          "color": "#4d4d4d",
+          "width_pt": 0.82,
+          "linestyle": "--",
+          "marker": "o",
+          "marker_size_pt": 2.15,
+          "alpha": 0.92
+        },
+        {
+          "file": "layer4_line03.csv",
+          "label": "Fu",
+          "color": "#d89000",
+          "width_pt": 0.82,
+          "linestyle": "--",
+          "marker": "o",
+          "marker_size_pt": 2.15,
+          "alpha": 0.92
+        },
+        {
+          "file": "layer4_line04.csv",
+          "label": "EPM",
+          "color": "#2a9d8f",
+          "width_pt": 0.82,
+          "linestyle": "-",
+          "marker": "o",
+          "marker_size_pt": 2.15,
+          "alpha": 0.92
+        }
+      ],
+      "collections": [],
+      "texts": [],
+      "tables": []
+    }
+  ],
+  "note": "Source canvas differs from tightly cropped output. Use reference PNG dimensions for final export. 3D collections are not flattened into 2D paths.",
+  "figure_texts": [
+    {
+      "text": "样本序号",
+      "position": [
+        0.5,
+        0.025
+      ],
+      "font_size_pt": 8.0
+    },
+    {
+      "text": "行程时间（s）",
+      "position": [
+        0.018,
+        0.5
+      ],
+      "font_size_pt": 8.0
+    }
+  ]
+}

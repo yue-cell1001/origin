@@ -1,0 +1,167 @@
+{
+  "figure": 10,
+  "canvas_mm": [
+    120.0,
+    63.99999999999999
+  ],
+  "axes": [
+    {
+      "layer": 1,
+      "type": "rectilinear",
+      "position_normalized": [
+        0.125,
+        0.10999999999999999,
+        0.33991228070175433,
+        0.77
+      ],
+      "xlim": [
+        0.0,
+        100.0
+      ],
+      "ylim": [
+        0.20051510138683026,
+        50.182723779765
+      ],
+      "xticks": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "yticks": [
+        0.0,
+        10.0,
+        20.0,
+        30.0,
+        40.0,
+        50.0,
+        60.0
+      ],
+      "xlabel": "CAV渗透率（%）",
+      "ylabel": "平均绝对误差（s）",
+      "title": "",
+      "lines": [
+        {
+          "file": "layer1_line01.csv",
+          "label": "BPR",
+          "color": "#5b5b5b",
+          "width_pt": 1.8,
+          "linestyle": "-",
+          "marker": "o",
+          "marker_size_pt": 3.5,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line02.csv",
+          "label": "Fu",
+          "color": "#d58a00",
+          "width_pt": 1.8,
+          "linestyle": "--",
+          "marker": "s",
+          "marker_size_pt": 3.5,
+          "alpha": null
+        },
+        {
+          "file": "layer1_line03.csv",
+          "label": "EPM",
+          "color": "#2a9d8f",
+          "width_pt": 1.8,
+          "linestyle": "-",
+          "marker": "^",
+          "marker_size_pt": 3.5,
+          "alpha": null
+        }
+      ],
+      "collections": [],
+      "texts": [],
+      "tables": []
+    },
+    {
+      "layer": 2,
+      "type": "rectilinear",
+      "position_normalized": [
+        0.5600877192982455,
+        0.10999999999999999,
+        0.3399122807017544,
+        0.77
+      ],
+      "xlim": [
+        0.0,
+        100.0
+      ],
+      "ylim": [
+        0.5433609339590331,
+        67.45408993118048
+      ],
+      "xticks": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "yticks": [
+        0.0,
+        10.0,
+        20.0,
+        30.0,
+        40.0,
+        50.0,
+        60.0,
+        70.0
+      ],
+      "xlabel": "CAV渗透率（%）",
+      "ylabel": "均方根误差（s）",
+      "title": "",
+      "lines": [
+        {
+          "file": "layer2_line01.csv",
+          "label": "BPR",
+          "color": "#5b5b5b",
+          "width_pt": 1.8,
+          "linestyle": "-",
+          "marker": "o",
+          "marker_size_pt": 3.5,
+          "alpha": null
+        },
+        {
+          "file": "layer2_line02.csv",
+          "label": "Fu",
+          "color": "#d58a00",
+          "width_pt": 1.8,
+          "linestyle": "--",
+          "marker": "s",
+          "marker_size_pt": 3.5,
+          "alpha": null
+        },
+        {
+          "file": "layer2_line03.csv",
+          "label": "EPM",
+          "color": "#2a9d8f",
+          "width_pt": 1.8,
+          "linestyle": "-",
+          "marker": "^",
+          "marker_size_pt": 3.5,
+          "alpha": null
+        }
+      ],
+      "collections": [],
+      "texts": [],
+      "tables": []
+    }
+  ],
+  "note": "Source canvas differs from tightly cropped output. Use reference PNG dimensions for final export. 3D collections are not flattened into 2D paths.",
+  "figure_texts": [
+    {
+      "text": "模型误差随CAV渗透率的变化",
+      "position": [
+        0.5,
+        1.01
+      ],
+      "font_size_pt": 8.5
+    }
+  ]
+}
